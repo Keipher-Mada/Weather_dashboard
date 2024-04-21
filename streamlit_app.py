@@ -10,7 +10,7 @@ with open('style.css') as f:
 st.sidebar.header('Dashboard `Weather_Keipher`')
 
 st.sidebar.subheader('Heat map parameter')
-time_hist_color = st.sidebar.selectbox('Color by', ('tempature_min', 'tempature_max')) 
+time_hist_color = st.sidebar.selectbox('Color by', ('temp_min', 'temp_max')) 
 
 st.sidebar.subheader('Donut chart parameter')
 donut_theta = st.sidebar.selectbox('Select data', ('q2', 'q3'))
